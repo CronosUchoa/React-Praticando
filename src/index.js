@@ -1,9 +1,9 @@
 import './index.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
-
+import Primeiro from './componentes/Primeiro'
 
 ReactDOM.render(
-    <h1>Olá react!</h1>,
+    <Primeiro></Primeiro>,
     document.getElementById('root')
 )
