@@ -1,9 +1,11 @@
 import React from 'react'
+import './App.css'
 import Primeiro from './layout/Primeiro'
 import ComParamentro from './layout/ComParamentro'
 import ComFilhos from './layout/ComFilhos'
 import Card from './layout/Card'
-import './App.css'
+import Repeticao from './layout/repeticao'
+
 
 const Appp = (props) =>(
 
@@ -12,7 +14,11 @@ const Appp = (props) =>(
     Conteudo
 </Card>
 
-<Card titulo="Exercicio 3">
+<Card titulo="Componente de Repetição #4">
+    <Repeticao></Repeticao>
+</Card>
+
+<Card titulo="Componente com children #3">
     <ComFilhos>
         <ul>
             <li>ANAID</li>
@@ -21,12 +27,12 @@ const Appp = (props) =>(
     </ComFilhos>
 </Card>
 
-<Card titulo="Exercicio 2">
+<Card titulo="Componente com Paramentro #2">
     <ComParamentro titulo="Esse é o título" subtitulo="Esse é o subtitulo"></ComParamentro>
     <ComParamentro titulo="opa v2" subtitulo="Esse é o subtitulo v2"/>
 </Card>
 
-<Card titulo="Exercicio 1">
+<Card titulo="Primeiro componte #1">
     <Primeiro></Primeiro>
 </Card>
 </div>)
