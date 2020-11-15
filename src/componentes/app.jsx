@@ -5,13 +5,22 @@ import ComParamentro from './layout/ComParamentro'
 import ComFilhos from './layout/ComFilhos'
 import Card from './layout/Card'
 import Repeticao from './layout/repeticao'
-
+import Condicional from './layout/Condicional'
+import CondicionalComIf from './layout/CondicionalComIf'
 
 const Appp = (props) =>(
 
 <div className="App">
 <Card titulo="Exercicio X">
     Conteudo
+</Card>
+
+<Card titulo="Componente de condicional com if v2 #6">
+    <CondicionalComIf numero={6}/>
+</Card>
+
+<Card  titulo="Componente de condicional v1 #5">
+    <Condicional numero={10}></Condicional>
 </Card>
 
 <Card titulo="Componente de Repetição #4">
