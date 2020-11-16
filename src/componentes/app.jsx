@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css'
-import Primeiro from './layout/Primeiro'
-import ComParamentro from './layout/ComParamentro'
-import ComFilhos from './layout/ComFilhos'
+import Primeiro from './basicos/Primeiro'
+import ComParamentro from './basicos/ComParamentro'
+import ComFilhos from './basicos/ComFilhos'
 import Card from './layout/Card'
-import Repeticao from './layout/repeticao'
-import Condicional from './layout/Condicional'
-import CondicionalComIf from './layout/CondicionalComIf'
+import Repeticao from './basicos/repeticao'
+import Condicional from './basicos/Condicional'
+import CondicionalComIf from './basicos/CondicionalComIf'
 
 const Appp = (props) =>(
 
